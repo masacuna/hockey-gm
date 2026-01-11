@@ -1,4 +1,3 @@
-    <script type="text/babel">
 const { useState, useMemo, useCallback, useRef } = React;
 
 // ==========================================
@@ -28835,3 +28834,13 @@ return (
                                     </div>
                                 </>
                             );
+                        })()}
+                    </div>
+                </div>
+            )}
+        </div>
+    );
+}
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<HockeyGM />);
